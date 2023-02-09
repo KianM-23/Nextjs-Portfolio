@@ -17,11 +17,7 @@ const page: React.FunctionComponent = () => {
         <About />
       </section>
       <section id="techstuff" className="snap-center">
-        <TechStuff
-          direction={{
-            directionLeft: undefined,
-          }}
-        />
+        <TechStuff />
       </section>
       <section className="snap-start" id="portfolio">
         <Portfolio />
