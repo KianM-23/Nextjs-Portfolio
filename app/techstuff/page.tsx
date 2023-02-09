@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
 
-type Props = { directionLeft: boolean };
+type Props = { directionLeft?: boolean };
 
 function page({ directionLeft }: Props) {
   return (
@@ -22,7 +22,7 @@ function page({ directionLeft }: Props) {
       </h3>
 
       <div className="grid grid-cols-4 gap-5">
-        <Skill />
+        <Skill directionLeft={directionLeft} />
         {/* docker */}
         <div className="flex cursor-pointer group realtive">
           <motion.img
