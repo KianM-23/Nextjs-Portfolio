@@ -2,20 +2,28 @@
 import Link from "next/link";
 import React from "react";
 import { Cursor } from "react-simple-Typewriter";
-import { useTypewriter } from "react-simple-Typewriter";
+// import { useTypewriter } from "react-simple-Typewriter";
 import BackGroundCircle from "./BackGroundCircle";
+import { useTypewriter } from "react-simple-Typewriter";
 
 type Props = {};
 
 function page({}: Props) {
-  const [text] = useTypewriter({
-    words: [
-      "Hi my Name is Kian Murillo",
-      "A Guy who loves sneakers",
-      "<ButLovesToCodeMore/>",
-    ],
-    loop: true,
-    delaySpeed: 3000,
+  // const [text] = useTypewriter({
+  //   words: [
+  //     "Hi my Name is Kian Murillo",
+  //     "A Guy who loves sneakers",
+  //     "<ButLovesToCodeMore/>",
+  //   ],
+  //   loop: true,
+  //   delaySpeed: 3000,
+  // });
+  // const [sentence] = useTypewriter({
+  //   words: ["kian pogi "],
+  // });
+
+  const [sentence] = useTypewriter({
+    words: ["kian pogi"],
   });
 
   return (
@@ -31,7 +39,7 @@ function page({}: Props) {
           React Developer
         </h2>
         <h1 className="px-20 text-5xl font-semibold lg:text-6xl">
-          <span className="mr-3">{text}</span>
+          <span className="mr-3">{sentence}</span>
           <Cursor cursorColor="#90E4C1" />
         </h1>
         <div></div>
