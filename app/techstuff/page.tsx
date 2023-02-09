@@ -27,7 +27,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -50,7 +50,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -74,7 +74,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -97,7 +97,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -212,7 +212,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -235,7 +235,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -258,7 +258,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
@@ -281,7 +281,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: -200,
+              x: 200,
               opacity: 0,
             }}
             transition={{
