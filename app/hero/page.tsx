@@ -7,7 +7,7 @@ import BackGroundCircle from "./BackGroundCircle";
 type Props = {};
 
 function page({}: Props) {
-  const [text, count] = useTypewriter({
+  const [text] = useTypewriter({
     words: [
       "Hi my Name is Kian Murillo",
       "A Guy who loves sneakers",
