@@ -2,8 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Skill from "./Skill";
-type Direction = { directionLeft: any };
+
 type Props = { direction: Direction };
+type Direction = { directionLeft: any };
 
 function page({ direction }: Props) {
   return (

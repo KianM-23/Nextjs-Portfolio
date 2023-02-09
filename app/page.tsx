@@ -7,7 +7,7 @@ import TechStuff from "../app/techstuff/page";
 import Contact from "../app/contact/page";
 import Footer from "../app/footer/page";
 
-const page = () => {
+const page: React.FunctionComponent = () => {
   return (
     <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll z-0">
       <section className="pt-32 snap-start" id="hero">
@@ -17,7 +17,11 @@ const page = () => {
         <About />
       </section>
       <section id="techstuff" className="snap-center">
-        <TechStuff />
+        <TechStuff
+          direction={{
+            directionLeft: undefined,
+          }}
+        />
       </section>
       <section className="snap-start" id="portfolio">
         <Portfolio />
