@@ -5,6 +5,7 @@ import { Cursor } from "react-simple-Typewriter";
 // import { useTypewriter } from "react-simple-Typewriter";
 import BackGroundCircle from "./BackGroundCircle";
 import { useTypewriter } from "react-simple-Typewriter";
+import Typewriter from "typewriter-effect";
 
 type Props = {};
 
@@ -22,10 +23,6 @@ function page({}: Props) {
   //   words: ["kian pogi "],
   // });
 
-  const [sentence] = useTypewriter({
-    words: ["kian pogi"],
-  });
-
   return (
     <div className="flex flex-col justify-center h-screen space-y-8 overflow-hidden text-center item-center ">
       <BackGroundCircle />
@@ -39,8 +36,15 @@ function page({}: Props) {
           React Developer
         </h2>
         <h1 className="px-20 text-5xl font-semibold lg:text-6xl">
-          <span className="mr-3">{sentence}</span>
-          <Cursor cursorColor="#90E4C1" />
+          <Typewriter
+            options={{
+              strings: ["Hi I'm Kian Murillo"],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+          {/* <span className="mr-3">{sentence}</span>
+          <Cursor cursorColor="#90E4C1" /> */}
         </h1>
         <div></div>
         <div className="pt-5">
