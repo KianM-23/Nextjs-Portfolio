@@ -1,28 +1,12 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { Cursor } from "react-simple-Typewriter";
-// import { useTypewriter } from "react-simple-Typewriter";
 import BackGroundCircle from "./BackGroundCircle";
-import { useTypewriter } from "react-simple-Typewriter";
 import Typewriter from "typewriter-effect";
 
 type Props = {};
 
 function page({}: Props) {
-  // const [text] = useTypewriter({
-  //   words: [
-  //     "Hi my Name is Kian Murillo",
-  //     "A Guy who loves sneakers",
-  //     "<ButLovesToCodeMore/>",
-  //   ],
-  //   loop: true,
-  //   delaySpeed: 3000,
-  // });
-  // const [sentence] = useTypewriter({
-  //   words: ["kian pogi "],
-  // });
-
   return (
     <div className="flex flex-col justify-center h-screen space-y-8 overflow-hidden text-center item-center ">
       <BackGroundCircle />
@@ -43,8 +27,6 @@ function page({}: Props) {
               loop: true,
             }}
           />
-          {/* <span className="mr-3">{sentence}</span>
-          <Cursor cursorColor="#90E4C1" /> */}
         </h1>
         <div></div>
         <div className="pt-5">
