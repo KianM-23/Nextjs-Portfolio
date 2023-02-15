@@ -45,7 +45,9 @@ function page({}: Props) {
                   Projects {i + 1} of {projects.length}
                 </span>
               </h4>
-              <p className="text-base font-semibold">Swipe right for more</p>
+              <p className="text-base font-semibold text-black">
+                Swipe right for more
+              </p>
               <p className="text-sm text-center lg:text-lg md:text-left">
                 The standard chunk of Lorem Ipsum used since the 1500s is
                 reproduced below for those interested. Sections 1.10.32 and
