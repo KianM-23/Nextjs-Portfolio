@@ -11,9 +11,9 @@ function page({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
-      className="relative flex flex-col items-center justify-center h-screen mx-auto text-center md:text-left xl:flex-row max-w-7xl xl:px-10 xl:space-y-0"
+      className="relative flex flex-col items-center justify-center h-screen mx-auto text-center max-w-7xl xl:px-10 xl:space-y-0"
     >
-      <h3 className="lg:absolute lg:top-24 uppercase tracking-[20px] text-gray-500 text-2xl lg:text-4xl lg:pt-32 lg:mb-0  mb-10">
+      <h3 className="lg:absolute  lg:top-24 uppercase tracking-[20px] text-gray-500 text-2xl lg:text-4xl lg:pt-32 lg:mb-0  mb-10">
         skills
       </h3>
       <h3 className="lg:absolute lg:top-36 uppercase tracking-[3px] text-gray-500 text-sm lg:pt-40 mb-10">
@@ -27,7 +27,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: 100,
               opacity: 0,
             }}
             transition={{
@@ -49,7 +49,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: 100,
               opacity: 0,
             }}
             transition={{
@@ -71,7 +71,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: -100,
               opacity: 0,
             }}
             transition={{
@@ -93,7 +93,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: -100,
               opacity: 0,
             }}
             transition={{
@@ -115,7 +115,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: -100,
               opacity: 0,
             }}
             transition={{
@@ -137,7 +137,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: -100,
               opacity: 0,
             }}
             transition={{
@@ -159,7 +159,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: 100,
               opacity: 0,
             }}
             transition={{
@@ -181,7 +181,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: 100,
               opacity: 0,
             }}
             transition={{
@@ -203,7 +203,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: -100,
               opacity: 0,
             }}
             transition={{
@@ -225,7 +225,7 @@ function page({}: Props) {
         <div className="flex cursor-pointer group realtive">
           <motion.img
             initial={{
-              x: 200,
+              x: -100,
               opacity: 0,
             }}
             transition={{
