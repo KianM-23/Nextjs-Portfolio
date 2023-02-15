@@ -9,7 +9,7 @@ function page({}: Props) {
 
   return (
     <div className="relative z-0 flex flex-col items-center h-screen max-w-full mx-auto my-4 overflow-hidden text-left md:flex-row justify-evenly">
-      <h3 className="absolute top-32 uppercase tracking-[20px] text-gray-500 text-4xl">
+      <h3 className="lg:absolute lg:top-32 uppercase tracking-[15px] text-gray-500 text-2xl lg:text-4xl">
         projects
       </h3>
       <div className="relative z-20 flex w-full overflow-x-auto overflow-y-hidden snap-x snap-mandatory">
@@ -39,14 +39,14 @@ function page({}: Props) {
               src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/programmer-icon.png"
             />
 
-            <div className="max-w-6xl px-0 space-y-12 text-center md:px-10">
-              <h4 className="text-4xl font-semibold text-center">
+            <div className="max-w-6xl px-0 space-y-12 text-center lg:space-y-12 md:px-10">
+              <h4 className="text-2xl font-semibold text-center lg:text-4xl">
                 <span className="underline decoration-teal-200 ">
                   Projects {i + 1} of {projects.length}
                 </span>
               </h4>
-              <p className="text-base font-semibold">Scroll right for more</p>
-              <p className="text-lg text-center md:text-left">
+              <p className="text-base font-semibold">Swipe right for more</p>
+              <p className="text-sm text-center lg:text-lg md:text-left">
                 The standard chunk of Lorem Ipsum used since the 1500s is
                 reproduced below for those interested. Sections 1.10.32 and
                 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also

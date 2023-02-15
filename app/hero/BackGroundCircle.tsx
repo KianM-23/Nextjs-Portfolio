@@ -19,11 +19,11 @@ function BackGroundCircle({}: Props) {
       }}
       className="relative flex items-center justify-center"
     >
-      <div className="absolute border border-gray-500 rounded-full h-[200px] w-[200px] mt-2 animate-ping" />
-      <div className="absolute border border-gray-500 rounded-full h-[300px] w-[300px] mt-2 animate-ping" />
-      <div className="absolute border border-gray-500 rounded-full h-[500px] w-[500px] mt-2 animate-ping" />
-      <div className="absolute border-2 mt-2 border-teal-200 rounded-full opacity-20 animate-pulse h-[650px] w-[650px]" />
-      <div className="absolute border-2 mt-2 border-teal-200 rounded-full opacity-20 animate-pulse h-[800px] w-[800px]" />
+      <div className="absolute border border-gray-500 rounded-full h-[200px] w-[200px] lg:mt-2 mt-28 animate-ping" />
+      <div className="absolute border border-gray-500 rounded-full h-[300px] w-[300px] lg:mt-2 mt-28 animate-ping" />
+      <div className="absolute border border-gray-500 rounded-full h-[500px] w-[500px] lg:mt-2 mt-28 animate-ping" />
+      <div className="absolute border-2  border-teal-200 rounded-full opacity-20  lg:mt-2 mt-28 animate-pulse lg:h-[650px] lg:w-[650px] h-[350px] w-[350px]" />
+      <div className="absolute border-2  border-teal-200 rounded-full opacity-20  lg:mt-2 mt-28 animate-pulse lg:h-[800px] lg:w-[800px] h-[500px] w-[500px]" />
     </motion.div>
   );
 }

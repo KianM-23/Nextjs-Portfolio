@@ -16,8 +16,9 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory z-0">
+      <body className="bg-[rgb(36,36,36)] text-white h-screen pb-12">
         <Homepage />
+
         {children}
       </body>
     </html>
