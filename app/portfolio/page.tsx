@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import projects from "../assets/software-engineer-icon.png";
 
 type Props = {};
 
@@ -36,7 +37,7 @@ function page({}: Props) {
                 opacity: 1,
                 y: 0,
               }}
-              src="https://uxwing.com/wp-content/themes/uxwing/download/web-app-development/programmer-icon.png"
+              src="https://img.uxwing.com/wp-content/themes/uxwing/download/web-app-development/programmer-icon.png"
             />
 
             <div className="max-w-6xl px-0 space-y-12 text-center lg:space-y-12 md:px-10">
