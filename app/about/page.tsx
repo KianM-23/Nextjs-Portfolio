@@ -28,7 +28,7 @@ function page({}: Props) {
           x: 0,
         }}
         // viewport={{ once: true }}
-        src="https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.15752-9/318659683_444184727927501_8711413285597634465_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=2_IOy70Mv2gAX9HM1SD&_nc_ht=scontent.fmnl3-4.fna&oh=03_AdTvePwu4ALekOXo2L4WsEHQuZiSPKJ1XcjLEdN7ZvQ2QQ&oe=640B2AB2"
+        src="https://scontent.fmnl30-3.fna.fbcdn.net/v/t39.30808-6/351567085_2487315738085000_298227071532203367_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=yEBoKOJFjqcAX9RvfDv&_nc_ht=scontent.fmnl30-3.fna&oh=00_AfA9qQsFWBh7svPHVAnweooYpx39bQKTlOaeDa4Abpt6Pg&oe=648265E3"
         className="bg-color-transparent -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] shadow-2xl"
       />
 
