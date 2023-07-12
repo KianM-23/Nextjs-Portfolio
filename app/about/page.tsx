@@ -28,7 +28,8 @@ function page({}: Props) {
           x: 0,
         }}
         // viewport={{ once: true }}
-        src="https://scontent.fmnl30-3.fna.fbcdn.net/v/t39.30808-6/351567085_2487315738085000_298227071532203367_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=yEBoKOJFjqcAX9RvfDv&_nc_ht=scontent.fmnl30-3.fna&oh=00_AfA9qQsFWBh7svPHVAnweooYpx39bQKTlOaeDa4Abpt6Pg&oe=648265E3"
+        src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/351779084_638161068334995_9143524420205683665_n.jpg?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH7GXdE3bdUT1Ns5InkSWJ2ihmvPe-R9eKKGa8975H14p6NGE4KFRuBJd-xjAs4NHfxLw7P-qzfpiWhRAN6YtAq&_nc_ohc=oztXYmTkI5QAX-Gaj1x&_nc_ht=scontent.fmnl3-3.fna&oh=00_AfA5s65A6xDBGKwmbphTOrQ_-A9ICTCcmgJiuSXHBw0HYA&oe=64B3ECCD
+        "
         className="bg-color-transparent -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] shadow-2xl"
       />
 

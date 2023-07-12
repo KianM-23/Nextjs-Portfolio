@@ -12,7 +12,7 @@ function page({}: Props) {
       <BackGroundCircle />
       <img
         className="relative object-cover w-64 h-64 mx-auto rounded-full lg:bottom-[165px] bottom-[100px] shadow-2xl "
-        src="https://scontent.fmnl30-2.fna.fbcdn.net/v/t39.30808-6/351779084_638161068334995_9143524420205683665_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=iPdu2mDbVh4AX-RgUgv&_nc_ht=scontent.fmnl30-2.fna&oh=00_AfBQjbUxckfB8efWqSgMuaBuNLEutcT2r2ZxRgHw9vEqVw&oe=64827C8D"
+        src="https://scontent.fmnl3-3.fna.fbcdn.net/v/t39.30808-6/351779084_638161068334995_9143524420205683665_n.jpg?_nc_cat=111&cb=99be929b-3346023f&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeH7GXdE3bdUT1Ns5InkSWJ2ihmvPe-R9eKKGa8975H14p6NGE4KFRuBJd-xjAs4NHfxLw7P-qzfpiWhRAN6YtAq&_nc_ohc=oztXYmTkI5QAX-Gaj1x&_nc_ht=scontent.fmnl3-3.fna&oh=00_AfA5s65A6xDBGKwmbphTOrQ_-A9ICTCcmgJiuSXHBw0HYA&oe=64B3ECCD"
         alt=""
       />
       <div className="z-20">
